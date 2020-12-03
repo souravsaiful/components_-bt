@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/syle.css">
+   <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>components</title>
+  </head>
+  <body>
+    Accordion
+<div class="container">
+  <div class="row">
+   <div class="accordion " id="accordionExample1">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne1">
+      <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne1" class="accordion-collapse collapse show" aria-labelledby="headingOne1" data-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo2">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2" data-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree3">
+      <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree3" class="accordion-collapse collapse" aria-labelledby="headingThree3" data-parent="#accordionExample1">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+Alertrs
+
+<div class="container">
+  <div class="alert alert-primary" role="alert">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+  </div>
+
+  <div class="alert alert-secondary" role="alert">
+    Lorem, ipsum dolor sit <a href="#" class="alert-link">go here</a> amet consectetur adipisicing elit.
+  </div>
+
+  <div class="alert alert-primary " role="alert">
+    <h2 class="alert-heading">Well done!</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, magnam</p>
+    <hr>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, numquam!</p>
+  </div>
+
+   <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+    Lorem, ipsum dolor sit <a href="#" class="alert-link">go here</a> amet consectetur adipisicing elit.
+    <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
+
+Badge
+
+<div class="container">
+<h1>Heading<span class="badge bg-primary">new</span></h1>
+
+<button type="button" class="btn btn-info">
+  notifications<span class="badge bg-primary" >4</span>
+</button>
+<br><br>
+<span class="badge bg-primary">colored</span>
+<span class="badge rounded-pill bg-secondary">colored</span>
+<span class="badge rounded-pill bg-success">colored</span>
+<span class="badge bg-info text-dark">colored</span>
+<span class="badge bg-danger">colored</span>
+<span class="badge bg-warning">colored</span>
+</div>
+
+Breadcrumb
+
+<div class="container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active"><a href="#">Home</a></li>
+      
+    </ol>
+  </nav>
+</div>
+
+Button
+
+<div class="container">
+  <div class="d-grid gap-3">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="d-grid gap-3 d-md-block ">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+</div>
+
+<div class="container">
+  <div class="d-grid gap-3 col-6 mx-auto ">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+</div>
+
+btn grp
+
+<div class="container">
+  <div class="btn-group mb-3" role="group">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+  <br>
+<div class="btn-group mb-3" role="group">
+  <a href="#" class="btn btn-primary active">Active link</a>
+  <a href="#" class="btn btn-danger">link</a>
+  <a href="#" class="btn btn-warning">link</a>
+
+</div>
+
+<div class="btn-toolbar " role="toolbar">
+<div class="btn-group mb-3 mr-3 align-baseline" role="group">
+    <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+     <button type="button" class="btn btn-primary">Button</button>
+  </div>
+
+  <div class="input-group">
+    <div class="input-group-text">@</div>
+    <input type="text" name="" id="" class="form-control" placeholder="username">
+  </div>
+  </div>
+</div>
+
+card
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Action</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">disabled</a>
+            </li>
+
+          </ul>
+        </div>
+        <img src="images/mug.jpg" class="card-img-top" alt="mug">
+         <div class="card-body">
+           <h2 class="card-title">Lorem ipsum dolor sit amet.</h2>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis laboriosam officia dolores veritatis eligendi placeat assumenda illum eos commodi.</p>
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+  <a href="#" class="card-link">Card link</a>
+  <div class="card-footer text-muted">
+    <button type="button" class="btn btn-primary">Visit more</button>
+  </div>
+         </div>
+      </div>
+    </div>
+
+   <div class="col-md-6">
+      <div class="card">
+       
+        <img src="images/mug.jpg" class="card-img" alt="mug">
+         <div class="card-img-overlay">
+           <h2 class="card-title text-light">Lorem ipsum dolor sit amet.</h2>
+           <p class="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis laboriosam officia dolores veritatis eligendi placeat assumenda illum eos commodi.</p>
+
+  <a href="#" class="card-link">Card link</a>
+  <div class="card-footer text-muted">
+    <button type="button" class="btn btn-primary">Visit more</button>
+  </div>
+         </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+carousel
+
+<div class="container">
+  <div class="row">
+    <div id="carouselEx" class="carousel slide carousel-fade" data-ride="carousel">
+
+ <ol class="carousel-indicators">
+    <li data-target="#carouselEx" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselEx" data-slide-to="1"></li>
+    <li data-target="#carouselEx" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" data-interval="5000">
+    <div class="carousel-item active">
+      <img src="images/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="5000">
+      <img src="images/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>2nd slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="5000">
+      <img src="images/3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>3rd slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <a class="carousel-control-prev" href="#carouselEx" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselEx" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+  </div>
+</div>
+
+
+    <!--js links-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
